@@ -4,177 +4,1130 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#173d2a" />
+
   <title>CAFETO — Café + cacao | Reynosa</title>
-  <meta name="description" content="CAFETO Café + cacao. Café, brunch, desayunos, matcha y más en Reynosa, Tamaulipas." />
+
+  <meta
+    name="description"
+    content="CAFETO Café + cacao. Café, brunch, desayunos, matcha y más en Reynosa, Tamaulipas."
+  />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+
   <div class="grain"></div>
+
+  <!-- =========================
+       NAVEGACIÓN
+  ========================== -->
+
   <header class="nav-wrap">
+
     <nav class="nav container">
+
       <a class="brand" href="#inicio" aria-label="CAFETO inicio">
+
         <svg class="brand-mark" viewBox="0 0 64 54" aria-hidden="true">
-          <path d="M32 49C17 42 10 31 12 15c9 2 16 8 20 17 4-9 11-15 20-17 2 16-5 27-20 34Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
-          <path d="M32 49C24 38 23 24 32 6c9 18 8 32 0 43Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
-          <path d="M12 16C6 16 3 18 2 21c3 13 13 22 30 28M52 16c6 0 9 2 10 5-3 13-13 22-30 28" fill="none" stroke="currentColor" stroke-width="2.2"/>
+
+          <path
+            d="M32 49C17 42 10 31 12 15c9 2 16 8 20 17 4-9 11-15 20-17 2 16-5 27-20 34Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+          />
+
+          <path
+            d="M32 49C24 38 23 24 32 6c9 18 8 32 0 43Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+          />
+
+          <path
+            d="M12 16C6 16 3 18 2 21c3 13 13 22 30 28M52 16c6 0 9 2 10 5-3 13-13 22-30 28"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+          />
+
         </svg>
-        <span><strong>CAFETO</strong><small>Café + cacao</small></span>
+
+        <span>
+          <strong>CAFETO</strong>
+          <small>Café + cacao</small>
+        </span>
+
       </a>
+
+
       <div class="nav-links" id="navLinks">
+
         <a href="#inicio">Inicio</a>
-        <a href="#menu">Menú</a>
+
+        <a href="menu.pdf" target="_blank" rel="noopener">
+          Menú
+        </a>
+
         <a href="#promos">Promociones</a>
+
         <a href="#galeria">Galería</a>
+
         <a href="#nosotros">Nosotros</a>
+
       </div>
+
+
       <div class="nav-actions">
-        <a class="btn btn-dark desktop-btn" href="#menu-digital">Menú <span>→</span></a>
-        <button class="menu-btn" id="menuBtn" aria-label="Abrir menú"><span></span><span></span></button>
+
+        <a
+          class="btn btn-dark desktop-btn"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Menú <span>→</span>
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Abrir menú"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
       </div>
+
     </nav>
+
   </header>
 
+
+
   <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
     <section class="hero" id="inicio">
+
       <div class="hero-copy container">
+
         <div class="hero-text reveal">
-          <p class="eyebrow">Buenos días saben mejor así</p>
-          <h1>Café, brunch y<br><em>matcha</em> en Reynosa</h1>
-          <p class="hero-sub">Desayunos, chilaquiles, comidas, postres y bebidas para hacer de cualquier día un buen plan.</p>
+
+          <p class="eyebrow">
+            Buenos días saben mejor así
+          </p>
+
+          <h1>
+            Café, brunch y<br>
+            <em>matcha</em> en Reynosa
+          </h1>
+
+          <p class="hero-sub">
+            Desayunos, chilaquiles, comidas, postres y bebidas
+            para hacer de cualquier día un buen plan.
+          </p>
+
           <div class="hero-buttons">
-            <a class="btn btn-dark" href="#menu">Explorar sabores <span>→</span></a>
-            <a class="btn btn-light" href="#menu-digital">Ver espacio del menú</a>
+
+            <a class="btn btn-dark" href="#menu">
+              Explorar sabores <span>→</span>
+            </a>
+
+            <a
+              class="btn btn-light"
+              href="menu.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Ver menú PDF
+            </a>
+
           </div>
+
         </div>
+
+
         <div class="hero-collage reveal delay-1">
-          <figure class="hero-main"><img src="1000189725.jpg" alt="Desayuno CAFETO con chilaquiles y huevo" /></figure>
-          <figure class="hero-drink"><img src="1000189697.jpg" alt="Bebida rosa CAFETO" /></figure>
-          <div class="hero-note">Más que café,<br><span>es un buen día ♡</span></div>
+
+          <figure class="hero-main">
+            <img
+              src="1000189725.jpg"
+              alt="Desayuno CAFETO con chilaquiles y huevo"
+            />
+          </figure>
+
+          <figure class="hero-drink">
+            <img
+              src="1000189697.jpg"
+              alt="Bebida rosa CAFETO"
+            />
+          </figure>
+
+          <div class="hero-note">
+            Más que café,<br>
+            <span>es un buen día ♡</span>
+          </div>
+
         </div>
+
       </div>
-      <div class="marquee" aria-hidden="true"><div>CAFÉ • BRUNCH • MATCHA • CACAO • DESAYUNOS • REYNOSA • CAFÉ • BRUNCH • MATCHA • CACAO •</div></div>
+
+
+      <div class="marquee" aria-hidden="true">
+
+        <div>
+          CAFÉ • BRUNCH • MATCHA • CACAO • DESAYUNOS • REYNOSA •
+          CAFÉ • BRUNCH • MATCHA • CACAO •
+        </div>
+
+      </div>
+
     </section>
+
+
+
+    <!-- =========================
+         CATEGORÍAS
+    ========================== -->
 
     <section class="section container" id="menu">
+
       <div class="section-head reveal">
-        <div><p class="eyebrow">Todo en un solo lugar</p><h2>Lo que se te antoje hoy</h2></div>
-        <a class="text-link" href="#menu-digital">Ir al espacio del menú →</a>
+
+        <div>
+
+          <p class="eyebrow">
+            Todo en un solo lugar
+          </p>
+
+          <h2>
+            Lo que se te antoje hoy
+          </h2>
+
+        </div>
+
+
+        <a
+          class="text-link"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Ver menú completo →
+        </a>
+
       </div>
+
+
       <div class="category-grid">
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189666.jpg" alt="Entradas y desayunos"><div><h3>Entradas</h3><p>Para empezar algo delicioso</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189724.jpg" alt="Huevos y chilaquiles"><div><h3>Desayunos</h3><p>Huevos, chilaquiles y más</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189668.jpg" alt="Chilaquiles y enchiladas"><div><h3>Chilaquiles</h3><p>Clásicos y llenos de sabor</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189669.jpg" alt="Panes CAFETO"><div><h3>Panes</h3><p>Sándwiches, ciabattas y croissant</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189672.jpg" alt="Wraps y bebidas frías"><div><h3>Wraps</h3><p>Opciones frescas y completas</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189678.jpg" alt="Crepas y postres"><div><h3>Postres</h3><p>Crepas, waffles y dulces</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189705.jpg" alt="Bebidas CAFETO"><div><h3>Bebidas</h3><p>Café, frappes y refresher's</p></div><span>↗</span></a>
-        <a class="category-card reveal" href="#menu-digital"><img src="1000189684.jpg" alt="Matcha latte CAFETO"><div><h3>Matcha</h3><p>En las rocas o latte</p></div><span>↗</span></a>
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189666.jpg"
+            alt="Entradas y desayunos"
+          />
+
+          <div>
+            <h3>Entradas</h3>
+            <p>Para empezar algo delicioso</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189724.jpg"
+            alt="Huevos y chilaquiles"
+          />
+
+          <div>
+            <h3>Desayunos</h3>
+            <p>Huevos, chilaquiles y más</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189668.jpg"
+            alt="Chilaquiles y enchiladas"
+          />
+
+          <div>
+            <h3>Chilaquiles</h3>
+            <p>Clásicos y llenos de sabor</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189669.jpg"
+            alt="Panes CAFETO"
+          />
+
+          <div>
+            <h3>Panes</h3>
+            <p>Sándwiches, ciabattas y croissant</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189672.jpg"
+            alt="Wraps y bebidas frías"
+          />
+
+          <div>
+            <h3>Wraps</h3>
+            <p>Opciones frescas y completas</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189678.jpg"
+            alt="Crepas y postres"
+          />
+
+          <div>
+            <h3>Postres</h3>
+            <p>Crepas, waffles y dulces</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189705.jpg"
+            alt="Bebidas CAFETO"
+          />
+
+          <div>
+            <h3>Bebidas</h3>
+            <p>Café, frappes y refresher's</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
+
+        <a
+          class="category-card reveal"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <img
+            src="1000189684.jpg"
+            alt="Matcha latte CAFETO"
+          />
+
+          <div>
+            <h3>Matcha</h3>
+            <p>En las rocas o latte</p>
+          </div>
+
+          <span>↗</span>
+
+        </a>
+
+
       </div>
+
     </section>
+
+
+
+    <!-- =========================
+         PROMOCIONES
+    ========================== -->
 
     <section class="promo-section" id="promos">
+
       <div class="container promo-grid">
-        <article class="promo big reveal"><img src="1000189683.jpg" alt="Promoción lunes latte 2x1"><div class="promo-overlay"><span>Lunes</span><h3>Latte 2x1</h3><a href="#menu-digital">Ver menú →</a></div></article>
-        <article class="promo reveal"><img src="1000189681.jpg" alt="Promoción termo CAFETO 10%"><div class="promo-tag">Cuida el planeta</div></article>
-        <article class="promo reveal"><img src="1000189684.jpg" alt="Matcha latte CAFETO"><div class="promo-tag light">Matcha latte</div></article>
+
+
+        <article class="promo big reveal">
+
+          <img
+            src="1000189683.jpg"
+            alt="Promoción lunes latte 2x1"
+          />
+
+          <div class="promo-overlay">
+
+            <span>Lunes</span>
+
+            <h3>
+              Latte 2x1
+            </h3>
+
+            <a
+              href="menu.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Ver menú →
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="promo reveal">
+
+          <img
+            src="1000189681.jpg"
+            alt="Promoción termo CAFETO 10%"
+          />
+
+          <div class="promo-tag">
+            Cuida el planeta
+          </div>
+
+        </article>
+
+
+
+        <article class="promo reveal">
+
+          <img
+            src="1000189684.jpg"
+            alt="Matcha latte CAFETO"
+          />
+
+          <div class="promo-tag light">
+            Matcha latte
+          </div>
+
+        </article>
+
+
       </div>
+
     </section>
+
+
+
+    <!-- =========================
+         FAVORITOS
+    ========================== -->
 
     <section class="section container">
+
       <div class="section-head reveal">
-        <div><p class="eyebrow">Favoritos de CAFETO</p><h2>Hechos para volver</h2></div>
+
+        <div>
+
+          <p class="eyebrow">
+            Favoritos de CAFETO
+          </p>
+
+          <h2>
+            Hechos para volver
+          </h2>
+
+        </div>
+
+
+        <a
+          class="text-link"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Ver menú completo →
+        </a>
+
       </div>
+
+
       <div class="favorites">
-        <article class="fav reveal"><img src="1000189713.jpg" alt="Mesa con alimentos y bebidas CAFETO"><div><span>Brunch</span><h3>CAFETO para compartir</h3><p>Una mesa llena de color, café y sabores frescos.</p></div></article>
-        <article class="fav reveal"><img src="1000189709.jpg" alt="Desayuno CAFETO"><div><span>Desayuno</span><h3>Breakfast mood</h3><p>Huevos, chilaquiles, aguacate y el toque de la casa.</p></div></article>
-        <article class="fav reveal"><img src="1000189704.jpg" alt="Bebida CAFETO en evento"><div><span>Eventos</span><h3>CAFETO también va contigo</h3><p>Bebidas y activaciones para experiencias especiales.</p></div></article>
+
+
+        <article class="fav reveal">
+
+          <img
+            src="1000189713.jpg"
+            alt="Mesa con alimentos y bebidas CAFETO"
+          />
+
+          <div>
+
+            <span>Brunch</span>
+
+            <h3>
+              CAFETO para compartir
+            </h3>
+
+            <p>
+              Una mesa llena de color, café y sabores frescos.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="fav reveal">
+
+          <img
+            src="1000189709.jpg"
+            alt="Desayuno CAFETO"
+          />
+
+          <div>
+
+            <span>Desayuno</span>
+
+            <h3>
+              Breakfast mood
+            </h3>
+
+            <p>
+              Huevos, chilaquiles, aguacate y el toque de la casa.
+            </p>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="fav reveal">
+
+          <img
+            src="1000189704.jpg"
+            alt="Bebida CAFETO en evento"
+          />
+
+          <div>
+
+            <span>Eventos</span>
+
+            <h3>
+              CAFETO también va contigo
+            </h3>
+
+            <p>
+              Bebidas y activaciones para experiencias especiales.
+            </p>
+
+          </div>
+
+        </article>
+
+
       </div>
+
     </section>
+
+
+
+    <!-- =========================
+         EVENTOS
+    ========================== -->
 
     <section class="events" id="nosotros">
+
       <div class="container events-grid">
+
         <div class="events-copy reveal">
-          <p class="eyebrow">Eventos & colaboraciones</p>
-          <h2>CAFETO donde pasan cosas buenas.</h2>
-          <p>Activaciones, eventos privados, marcas invitadas y experiencias alrededor del café.</p>
-          <a class="btn btn-light inverted" href="#contacto">Cotiza un evento →</a>
+
+          <p class="eyebrow">
+            Eventos & colaboraciones
+          </p>
+
+          <h2>
+            CAFETO donde pasan cosas buenas.
+          </h2>
+
+          <p>
+            Activaciones, eventos privados, marcas invitadas
+            y experiencias alrededor del café.
+          </p>
+
+          <a
+            class="btn btn-light inverted"
+            href="#contacto"
+          >
+            Cotiza un evento →
+          </a>
+
         </div>
+
+
         <div class="events-photos reveal delay-1">
-          <img src="1000189703.jpg" alt="Evento CAFETO con BMW" />
-          <img src="1000189705.jpg" alt="Barra de bebidas CAFETO en evento" />
-          <img src="1000189698.jpg" alt="Bebidas CAFETO en colaboración" />
+
+          <img
+            src="1000189703.jpg"
+            alt="Evento CAFETO con BMW"
+          />
+
+          <img
+            src="1000189705.jpg"
+            alt="Barra de bebidas CAFETO en evento"
+          />
+
+          <img
+            src="1000189698.jpg"
+            alt="Bebidas CAFETO en colaboración"
+          />
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section container" id="galeria">
-      <div class="section-head reveal"><div><p class="eyebrow">La vibra CAFETO</p><h2>Un lugar para quedarte</h2></div></div>
-      <div class="gallery">
-        <figure class="g1 reveal"><img src="1000189689.jpg" alt="Interior de CAFETO" /></figure>
-        <figure class="g2 reveal"><img src="1000189680.jpg" alt="Bebidas CAFETO en charola" /></figure>
-        <figure class="g3 reveal"><img src="1000189706.jpg" alt="Café y estudio en CAFETO" /></figure>
-        <figure class="g4 reveal"><img src="1000189707.jpg" alt="Bebidas y waffles CAFETO" /></figure>
-        <figure class="g5 reveal"><img src="1000189685.jpg" alt="Bebidas CAFETO sobre mesa verde" /></figure>
-        <figure class="g6 reveal"><img src="1000189687.jpg" alt="Variedad de bebidas CAFETO" /></figure>
+
+
+    <!-- =========================
+         GALERÍA
+    ========================== -->
+
+    <section
+      class="section container"
+      id="galeria"
+    >
+
+      <div class="section-head reveal">
+
+        <div>
+
+          <p class="eyebrow">
+            La vibra CAFETO
+          </p>
+
+          <h2>
+            Un lugar para quedarte
+          </h2>
+
+        </div>
+
       </div>
+
+
+      <div class="gallery">
+
+        <figure class="g1 reveal">
+          <img
+            src="1000189689.jpg"
+            alt="Interior de CAFETO"
+          />
+        </figure>
+
+        <figure class="g2 reveal">
+          <img
+            src="1000189680.jpg"
+            alt="Bebidas CAFETO en charola"
+          />
+        </figure>
+
+        <figure class="g3 reveal">
+          <img
+            src="1000189706.jpg"
+            alt="Café y estudio en CAFETO"
+          />
+        </figure>
+
+        <figure class="g4 reveal">
+          <img
+            src="1000189707.jpg"
+            alt="Bebidas y waffles CAFETO"
+          />
+        </figure>
+
+        <figure class="g5 reveal">
+          <img
+            src="1000189685.jpg"
+            alt="Bebidas CAFETO sobre mesa verde"
+          />
+        </figure>
+
+        <figure class="g6 reveal">
+          <img
+            src="1000189687.jpg"
+            alt="Variedad de bebidas CAFETO"
+          />
+        </figure>
+
+      </div>
+
     </section>
+
+
+
+    <!-- =========================
+         CAMPAÑAS
+    ========================== -->
 
     <section class="campaigns">
+
       <div class="container">
-        <div class="section-head reveal"><div><p class="eyebrow">Promos & momentos</p><h2>Siempre hay algo nuevo</h2></div></div>
-        <div class="campaign-strip">
-          <img src="1000189682.jpg" alt="No te quedes sin tu café" />
-          <img src="1000189686.jpg" alt="How to trap me CAFETO" />
-          <img src="1000189688.jpg" alt="Día de la dona CAFETO" />
-          <img src="1000189711.jpg" alt="Antojo deli y fresco CAFETO" />
-          <img src="1000189714.jpg" alt="Iced latte CAFETO" />
-          <img src="1000189662.jpg" alt="Portada de menú CAFETO" />
-          <img src="1000189701.jpg" alt="Publicación de evento CAFETO" />
+
+        <div class="section-head reveal">
+
+          <div>
+
+            <p class="eyebrow">
+              Promos & momentos
+            </p>
+
+            <h2>
+              Siempre hay algo nuevo
+            </h2>
+
+          </div>
+
         </div>
+
+
+        <div class="campaign-strip">
+
+          <img
+            src="1000189682.jpg"
+            alt="No te quedes sin tu café"
+          />
+
+          <img
+            src="1000189686.jpg"
+            alt="How to trap me CAFETO"
+          />
+
+          <img
+            src="1000189688.jpg"
+            alt="Día de la dona CAFETO"
+          />
+
+          <img
+            src="1000189711.jpg"
+            alt="Antojo deli y fresco CAFETO"
+          />
+
+          <img
+            src="1000189714.jpg"
+            alt="Iced latte CAFETO"
+          />
+
+          <img
+            src="1000189662.jpg"
+            alt="Portada de menú CAFETO"
+          />
+
+          <img
+            src="1000189701.jpg"
+            alt="Publicación de evento CAFETO"
+          />
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="menu-cta" id="menu-digital">
+
+
+    <!-- =========================
+         MENÚ PDF
+    ========================== -->
+
+    <section
+      class="menu-cta"
+      id="menu-digital"
+    >
+
       <div class="container menu-cta-grid reveal">
+
+
         <div>
-          <p class="eyebrow">Menú digital</p>
-          <h2>Espacio listo para tu menú.</h2>
-          <p>Esta sección queda preparada para que después agregues tu PDF, enlace o QR del menú sin depender de otra página adicional.</p>
-          <a class="btn btn-dark" href="#menu-digital" aria-label="Espacio reservado para menú">Agregaré aquí mi menú →</a>
+
+          <p class="eyebrow">
+            Menú digital
+          </p>
+
+          <h2>
+            Conoce todo nuestro menú.
+          </h2>
+
+          <p>
+            Desayunos, chilaquiles, panes, wraps, crepas,
+            postres, café, bebidas frías, matcha y mucho más.
+          </p>
+
+          <a
+            class="btn btn-dark"
+            href="menu.pdf"
+            target="_blank"
+            rel="noopener"
+            aria-label="Abrir menú digital CAFETO"
+          >
+            Ver menú completo →
+          </a>
+
         </div>
-        <div class="menu-placeholder" aria-label="Espacio reservado para menú digital">
-          <span>MENÚ</span>
-          <strong>Tu PDF / QR / enlace va aquí</strong>
-          <small>Espacio reservado</small>
-        </div>
+
+
+        <a
+          class="menu-placeholder"
+          href="menu.pdf"
+          target="_blank"
+          rel="noopener"
+          aria-label="Abrir menú PDF"
+        >
+
+          <span>
+            MENÚ
+          </span>
+
+          <strong>
+            CAFETO Café + cacao
+          </strong>
+
+          <small>
+            Toca para abrir el menú
+          </small>
+
+        </a>
+
+
       </div>
+
     </section>
+
+
   </main>
 
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
   <footer id="contacto">
+
     <div class="container footer-grid">
-      <div class="brand footer-brand"><svg class="brand-mark" viewBox="0 0 64 54"><path d="M32 49C17 42 10 31 12 15c9 2 16 8 20 17 4-9 11-15 20-17 2 16-5 27-20 34Z" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M32 49C24 38 23 24 32 6c9 18 8 32 0 43Z" fill="none" stroke="currentColor" stroke-width="2.2"/></svg><span><strong>CAFETO</strong><small>Café + cacao</small></span></div>
-      <div><p>Reynosa, Tamaulipas</p><p>Café, buena comida y mejores momentos.</p></div>
-      <div><p>Instagram: <strong>@cafetoreynosa</strong></p><p>Facebook: <strong>cafetocafecacaoreynosa</strong></p></div>
+
+      <div class="brand footer-brand">
+
+        <svg
+          class="brand-mark"
+          viewBox="0 0 64 54"
+        >
+
+          <path
+            d="M32 49C17 42 10 31 12 15c9 2 16 8 20 17 4-9 11-15 20-17 2 16-5 27-20 34Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+          />
+
+          <path
+            d="M32 49C24 38 23 24 32 6c9 18 8 32 0 43Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+          />
+
+        </svg>
+
+
+        <span>
+
+          <strong>
+            CAFETO
+          </strong>
+
+          <small>
+            Café + cacao
+          </small>
+
+        </span>
+
+      </div>
+
+
+      <div>
+
+        <p>
+          Reynosa, Tamaulipas
+        </p>
+
+        <p>
+          Café, buena comida y mejores momentos.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <p>
+          Instagram:
+          <strong>@cafetoreynosa</strong>
+        </p>
+
+        <p>
+          Facebook:
+          <strong>cafetocafecacaoreynosa</strong>
+        </p>
+
+      </div>
+
     </div>
-    <div class="container footer-bottom">CAFETO Café + cacao <span>•</span> Sitio demostrativo</div>
+
+
+    <div class="container footer-bottom">
+
+      CAFETO Café + cacao
+
+      <span>•</span>
+
+      Sitio demostrativo
+
+    </div>
+
   </footer>
 
+
+
+  <!-- =========================
+       JAVASCRIPT
+  ========================== -->
+
   <script>
+
   (()=>{
-    const menuBtn=document.getElementById('menuBtn');
-    const navLinks=document.getElementById('navLinks');
-    menuBtn?.addEventListener('click',()=>navLinks?.classList.toggle('open'));
-    navLinks?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
-    const els=[...document.querySelectorAll('.reveal')];
+
+    const menuBtn =
+      document.getElementById('menuBtn');
+
+    const navLinks =
+      document.getElementById('navLinks');
+
+
+    menuBtn?.addEventListener(
+      'click',
+      () => navLinks?.classList.toggle('open')
+    );
+
+
+    navLinks
+      ?.querySelectorAll('a')
+      .forEach(a =>
+
+        a.addEventListener(
+          'click',
+          () => navLinks.classList.remove('open')
+        )
+
+      );
+
+
+    const els =
+      [...document.querySelectorAll('.reveal')];
+
+
+
     if('IntersectionObserver' in window){
-      const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.08});
-      els.forEach(el=>io.observe(el));
-      setTimeout(()=>els.forEach(el=>{if(!el.classList.contains('show')) el.classList.add('show')}),1200);
-    }else{els.forEach(el=>el.classList.add('show'));}
-    window.addEventListener('load',()=>els.forEach(el=>{const r=el.getBoundingClientRect(); if(r.top<innerHeight*1.2) el.classList.add('show')}));
-    window.addEventListener('scroll',()=>{const img=document.querySelector('.hero-main img');if(img&&window.innerWidth>800){img.style.transform=`scale(1.04) translateY(${Math.min(window.scrollY*.035,18)}px)`}});
+
+      const io =
+        new IntersectionObserver(
+
+          entries =>
+
+            entries.forEach(e => {
+
+              if(e.isIntersecting){
+
+                e.target.classList.add('show');
+
+                io.unobserve(e.target);
+
+              }
+
+            }),
+
+          {threshold:.08}
+
+        );
+
+
+      els.forEach(
+        el => io.observe(el)
+      );
+
+
+      setTimeout(
+
+        () =>
+
+          els.forEach(el => {
+
+            if(
+              !el.classList.contains('show')
+            ){
+
+              el.classList.add('show');
+
+            }
+
+          }),
+
+        1200
+
+      );
+
+    }
+
+    else{
+
+      els.forEach(
+        el => el.classList.add('show')
+      );
+
+    }
+
+
+
+    window.addEventListener(
+      'load',
+      () =>
+
+        els.forEach(el => {
+
+          const r =
+            el.getBoundingClientRect();
+
+          if(
+            r.top < innerHeight * 1.2
+          ){
+
+            el.classList.add('show');
+
+          }
+
+        })
+    );
+
+
+
+    window.addEventListener(
+      'scroll',
+      () => {
+
+        const img =
+          document.querySelector(
+            '.hero-main img'
+          );
+
+
+        if(
+          img &&
+          window.innerWidth > 800
+        ){
+
+          img.style.transform =
+            `scale(1.04)
+             translateY(
+             ${Math.min(
+               window.scrollY * .035,
+               18
+             )}px
+             )`;
+
+        }
+
+      }
+    );
+
+
   })();
+
   </script>
+
+
 </body>
-</html>
+            </html>
